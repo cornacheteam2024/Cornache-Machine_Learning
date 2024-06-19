@@ -12,9 +12,16 @@ This project provides a Python script for loading an image dataset, performing r
 
 ## Requirements
 
-- Python 3.x
-- OpenCV
-- NumPy
+- Tensorflow
+- Python
+- Google Colab
+- Kaggle
+- Matplotlib
+- Keras
+- Numpy
+- Pandas
+- Seaborn
+- OpenCV2
 - scikit-learn
 - PIL (Pillow)
 
