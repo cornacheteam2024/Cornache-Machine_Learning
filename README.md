@@ -27,9 +27,28 @@ This project provides a Python script for loading an image dataset, performing r
 
 ## Installation
 
-1. Clone the repository or download the script.
-
-2. Install the required packages using pip:
+1. **Clone the repository or download the script:**
 
    ```bash
-   pip install opencv-python-headless numpy scikit-learn pillow
+   git clone [https://github.com/your-repository/cornache-ml.git](https://github.com/cornacheteam2024/Machine-Learning.git)
+   cd Machine-Learning
+   ```
+
+2. **Set up a virtual environment (optional but recommended):**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install the required packages using pip:**
+
+   ```bash
+   pip install tensorflow opencv-python-headless numpy scikit-learn pillow matplotlib keras pandas seaborn
+   ```
+   
+## Authors
+
+- [@marisa-nao](https://github.com/marisa-nao)
+- [@ahmadtaufiqramadhan](https://github.com/ahmadtaufiqramadhan)
+- [@revano17](https://github.com/Revano17)
