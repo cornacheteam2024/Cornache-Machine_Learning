@@ -1,8 +1,31 @@
-# Cornache Machine Learning ![version](https://img.shields.io/badge/version-1.0.0-yellow.svg)
+# Cornache Machine Learning
 
-# Image Dataset Oversampling
+This project provides tools for loading an image dataset, performing random oversampling on the minority class, and displaying the sample counts before and after oversampling.
 
-This project provides a Python script for loading an image dataset, performing random oversampling on the minority class, and displaying the count of samples per class before and after oversampling.
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Datasets](#datasets)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [Local Environment Setup](#local-environment-setup)
+- [Usage](#usage)
+- [Authors](#authors)
+
+## Introduction
+
+Cornache Machine Learning is a project aimed at simplifying the process of working with imbalanced image datasets. It includes tools for loading image datasets, performing oversampling on minority classes, and visualizing the class distribution before and after oversampling.
+
+## Datasets
+
+This project use 4 Classes in total:
+1. Blight
+2. Common_Rusht
+3.  Gray_Leaf_Spot
+4.  Healty
+
+Merge Dataset Download Link [Here](https://github.com/cornacheteam2024/Cornache-Machine_Learning/tree/main/dataset)
 
 ## Features
 
@@ -12,7 +35,7 @@ This project provides a Python script for loading an image dataset, performing r
 
 ## Requirements
 
-- Tensorflow
+- TensorFlow
 - Python
 - Google Colab
 - Kaggle
@@ -27,28 +50,48 @@ This project provides a Python script for loading an image dataset, performing r
 
 ## Installation
 
-1. **Clone the repository or download the script:**
+### Local Environment Setup
+
+1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/your-repository/cornache-ml.git](https://github.com/cornacheteam2024/Machine-Learning.git)
-   cd Machine-Learning
+   git clone https://github.com/cornacheteam2024/Cornache-Machine_Learning.git
+   cd Cornache-Machine_Learning
    ```
 
-2. **Set up a virtual environment (optional but recommended):**
+2. (Optional) Set up a virtual environment:
 
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. **Install the required packages using pip:**
+3. Install the required packages:
 
    ```bash
    pip install tensorflow opencv-python-headless numpy scikit-learn pillow matplotlib keras pandas seaborn
    ```
-   
+
+## Usage
+
+1. Run the preprocessing notebook:
+
+   ```bash
+   jupyter notebook Preprocessing.ipynb
+   ```
+
+2. Build the model:
+
+   ```bash
+   jupyter notebook Building_Model.ipynb
+   ```
+
 ## Authors
 
 - [@marisa-nao](https://github.com/marisa-nao)
 - [@ahmadtaufiqramadhan](https://github.com/ahmadtaufiqramadhan)
-- [@revano17](https://github.com/Revano17)
+- [@revano17](https://github.com/revano17)
+
+---
+
+For more details, visit the [repository](https://github.com/cornacheteam2024/Cornache-Machine_Learning).
