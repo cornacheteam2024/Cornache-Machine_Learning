@@ -23,8 +23,9 @@ This project use 4 Classes in total and Datasets consist of 4800 images with 120
 1. Blight
 2. Common_Rusht
 3. Gray_Leaf_Spot
-4. Healty
+4. Healthy
 
+The datasets used are from Kaggle and Roboflow.
 Merge Dataset Download Link [Here](https://github.com/cornacheteam2024/Cornache-Machine_Learning/tree/main/dataset)
 
 ## Features
